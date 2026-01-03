@@ -1,0 +1,27 @@
+{
+  "proxy_url": {
+    "description": "代理地址，例如: http://127.0.0.1:7890",
+    "type": "string",
+    "default": ""
+  },
+  "blur_level": {
+    "description": "封面图片打码程度 (0-100)，0为不打码，100为完全模糊",
+    "type": "int",
+    "default": 50
+  },
+  "max_results": {
+    "description": "搜索结果最大数量",
+    "type": "int",
+    "default": 10
+  },
+  "cache_enabled": {
+    "description": "是否启用缓存",
+    "type": "bool",
+    "default": true
+  },
+  "cache_ttl": {
+    "description": "缓存过期时间（秒）",
+    "type": "int",
+    "default": 3600
+  }
+}
